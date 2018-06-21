@@ -2,7 +2,7 @@
 <manifest>
 
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
-  <project path="patcher" name="kapteinstein/patcher" revision="cm-14.1-bacon" />
+  <project path="patcher" name="sultanxda/patcher" revision="cm-14.1-bacon" />
 
  <!--Repositories to replace-->
   <remove-project name="LineageOS/android_hardware_qcom_camera" />
@@ -27,7 +27,7 @@
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-14.1-sultan" />
   <project path="packages/apps/Snap" name="sultanxda/android_packages_apps_Snap" revision="bacon/cm-14.1-sultan" />
   <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" />
-  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-14.1-sultan" />
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="cm-14.1" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
